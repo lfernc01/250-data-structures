@@ -1,4 +1,8 @@
-package lec13;
+public class Node {
+	public int element;
+	public Node next; 
+
+}
 
 public class SinglyLinkedList {
 	public Node head = null;
@@ -19,7 +23,7 @@ public class SinglyLinkedList {
 		 System.out.println(""+l);
 	}
 	
-	public static void add(SinglyLinkedList list, int element) { //what does it mean by cannot be resolved to a type
+	public static void add(SinglyLinkedList list, int element) { 
 		int index = 0;
 		Node node = new Node();
 		node.element = element;
