@@ -1,8 +1,9 @@
-public class ArraysBasedStringStack {
+
+public class ArraysSS {
 	private String[] stack;
 	private int top = -1;
 	
-	public ArraysBasedStringStack(int capacity) {
+	public ArraysSS(int capacity) {
 		stack = new String[capacity];
 	}
 	
