@@ -1,5 +1,3 @@
-package lec16;
-
 public class ArraysBasedStringStack {
 	private String[] stack;
 	private int top = -1;
