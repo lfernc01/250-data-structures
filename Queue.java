@@ -1,10 +1,9 @@
-package lec16;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.io.*;
 import java.util.Exceptions;
 
-public class HarshBoundedIntQueue {
+public class HarshBoundedQueue {
 	private LinkedList<Integer> a = new LinkedList<Integer>();
 	private int capacity = 10;
 	
